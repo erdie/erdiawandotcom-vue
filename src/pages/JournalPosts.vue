@@ -64,6 +64,16 @@ export default {
                     console.log(error);
                 });
         }
+    },
+    metaInfo: {
+        title: 'Anna Erdiawan - Journal',
+        titleTemplate: null,
+        meta: [
+            { name: 'description', content: 'Anna Erdiawan Personal Site, Anna Erdiawan Linkedin, Anna Erdiawan Resume, Anna Erdiawan Portfolio, Anna Erdiawan Journal' }
+        ],
+        link: [
+            { rel: 'shortcut icon', href: './static/favicon.png' } 
+        ]
     }
 }
 </script>
