@@ -13,8 +13,8 @@
                     <!-- <div class="name-type">
                         <h1>Anna Erdiawan</h1>
                     </div> -->
-                    <p class="desc">You can call me Erdi. Live in Yogyakarta, i'm Web developer since 4 years ago. <br> Interested with User Interface, User Interaction and User Experience.</p>
-                    <p class="desc">I love being a part of community. Now i manage a community called <br> GDG Jogjakarta as a Co-Manager. GDG Jogjakarta is Google Developer Group  <br> community based in Yogyakarta.</p>
+                    <p class="desc">You can call me Erdi. Live in Yogyakarta, i'm Web developer since 4 years ago. Interested with User Interface, User Interaction and User Experience.</p>
+                    <p class="desc">I love being a part of community. Now i manage a community called GDG Jogjakarta as a Co-Manager. GDG Jogjakarta is Google Developer Group community based in Yogyakarta.</p>
                 </div>
                 <div class="hero-image">
                     <img src="../assets/erdi-color.jpeg" class="lazyload" alt="Anna Erdiawan">

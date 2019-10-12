@@ -26,7 +26,7 @@
                     <h3>EXP-UP! Academy Esport</h3>
                     <p>Tech: HTML5, CSS3, JQUERY<br>
                         Frontend Dev: Anna Erdiawan<br>
-                        Demo v2: <a href="https://exp-up.id" target="_blank" rel="noopener">exp-up.id.com</a>
+                        Demo: <a href="https://exp-up.id" target="_blank" rel="noopener">exp-up.id</a> & <a href="https://exp-academy.id" target="_blank" rel="noopener">exp-academy.id</a>
                     </p>
                 </div>
                 <div class="portfolio-card">
