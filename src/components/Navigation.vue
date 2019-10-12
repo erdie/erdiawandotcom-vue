@@ -8,8 +8,8 @@
                     </div>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="../#portfolio">portfolio</a></li>
-                        <li class="active"><a href="">Journal</a></li>
+                        <li><a href="/#portfolio">portfolio</a></li>
+                        <li class="active"><a href="/journal">Journal</a></li>
                     </ul>
                 </div>
                 <div class="social">
