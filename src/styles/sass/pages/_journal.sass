@@ -43,7 +43,28 @@
 
 #navigation-mobile
     display: none
-
+    .menu
+        display: flex
+        justify-content: space-between
+        width: 100%
+        padding: 10px 15px
+        .icon-menu
+            position: relative
+            .active
+                display: block
+            ul
+                display: none
+                position: absolute
+                top: 16px
+                right: 0
+                background-color: white
+                border-radius: 5px
+                z-index: 2
+                border: 1px solid #dedede
+                li
+                    padding: 7px 10px
+                    a
+                        color: #333333 !important
 #navigation-mobile
     background-color: $primary-color
     .navigation-group

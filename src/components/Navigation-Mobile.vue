@@ -6,11 +6,13 @@
                     <div class="brand">
                         <a href="/"><img src="../assets/erdiawan-4.svg" alt="Anna Erdiawan"></a>
                     </div>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="../#portfolio">portfolio</a></li>
-                        <li class="active"><a href="">Journal</a></li>
-                    </ul>
+                    <div class="icon-menu" v-on:click="showMobileMenu = !showMobileMenu">
+                        <ul v-bind:class="{active: showMobileMenu}">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="../#portfolio">portfolio</a></li>
+                            <li class="active"><a href="">Journal</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -28,3 +30,13 @@
         </div>
     </nav>
 </template>
+
+<script>
+export default {
+    data: function() {
+        return{
+            showMobileMenu: false
+        }
+    }
+}
+</script>
