@@ -4,7 +4,7 @@
             <div class="navigation-group container-flex justify-between">
                 <div class="menu container-flex align-center">
                     <div class="brand">
-                        <a href="/"><img src="assets/erdiawan-4.svg" alt="Anna Erdiawan"></a>
+                        <a href="/"><img src="../assets/erdiawan-4.svg" alt="Anna Erdiawan"></a>
                     </div>
                     <ul>
                         <li><a href="/">Home</a></li>
