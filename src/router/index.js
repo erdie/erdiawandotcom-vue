@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Homepage from '@/pages/Home'
 import Journal from '@/pages/Journal'
 import JournalDetail from '@/pages/JournalDetail'
+import JournalPosts from '@/pages/JournalPosts'
 
 Vue.use(Router)
 Vue.use(Meta, {
@@ -31,6 +32,11 @@ export default new Router({
       path: '/journal-detail',
       name: 'JournalDetail',
       component: JournalDetail
-    }
+    },
+    {
+      path: '/journal-posts',
+      name: 'JournalPosts',
+      component: JournalPosts
+    },
   ]
 })
