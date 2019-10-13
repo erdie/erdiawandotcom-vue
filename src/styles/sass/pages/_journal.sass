@@ -6,6 +6,7 @@
     .navigation-group
         .menu
             .brand
+                padding: 10px 15px 8px 15px
                 img 
                     height: 45px
                     transform: rotate(-3deg)
@@ -26,7 +27,7 @@
         .social
             color: #ffffff
             text-align: left
-            padding: 2px 0 5px 0
+            padding: 2px 15px 5px 15px
             small
                 padding: 0
                 margin: 2px 0 3px 4px
@@ -108,7 +109,7 @@
                     text-decoration: none
         
 #blog
-    padding: 50px 0
+    padding: 50px 0 10px 0
     .blog
         a
             text-decoration: none
@@ -148,6 +149,11 @@
     #navigation
         display: none
     #navigation-mobile
+        .navigation-group
+            .menu
+                padding: 10px 0
+                .brand
+                    padding: 0
         display: block
         .social-mobile
             background-color: #5b64a0
@@ -156,7 +162,14 @@
         .menu
             transform: scale(0.9)
     #blog
+        padding: 30px 0 10px 0
         .blog
             .blog-card
                 img
-                    height: 120px
+                    height: 200px
+
+@include respond(tablet)
+    .blog
+        .blog-card
+            img
+                height: 230px !important
