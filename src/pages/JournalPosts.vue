@@ -13,7 +13,7 @@
                                     <h2>{{post.title.rendered}}</h2>
                                 </div>
                                 <div class="blog-author">
-                                    <small>{{post.date_gmt}}</small>
+                                    <small><strong>Posted on </strong> {{post.date_gmt.substring(0,10)}}</small>
                                 </div>
                                 <div class="blog-desc">
                                     <p>{{post.excerpt.rendered.substring(0,200)+".."}}</p>
