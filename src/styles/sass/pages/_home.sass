@@ -120,6 +120,30 @@
                     font-weight: 600
                 a:hover
                     color: $accent-color
+    .portfolio-grid
+        .portfolio-card
+            padding-top: 15px
+            img
+                max-width: 500px
+                width: 100%
+                border: 1px solid #dedede
+                height: 300px
+                object-fit: cover
+                object-position: top
+                border-radius: 8px
+                border: 2px solid white 
+                transition: 0.5s
+            img:hover
+                transform: scale(1.02)
+                transition: 0.5s
+            p
+                font-size: 14px
+                a
+                    text-decoration: none
+                    color: $primary-color
+                    font-weight: 600
+                a:hover
+                    color: $accent-color
 
 footer
     p
@@ -193,6 +217,16 @@ footer
                 margin: 0
                 img
                     height: 220px
+        .portfolio-grid
+            .portfolio-card
+                img
+                    max-width: 90%
+                    height: 200px
+                    margin: 0 15px
+                h3
+                    margin: 10px 15px
+                p
+                    margin: 10px 15px
     footer
         p
             transform: scale(0.9)
@@ -216,3 +250,13 @@ footer
         .portfolio-group
             .portfolio-card
                 padding: 0 15px
+        .portfolio-grid
+            .portfolio-card
+                img
+                    max-width: 90%
+                    height: 200px
+                    margin: 0 15px
+                h3
+                    margin: 10px 15px
+                p
+                    margin: 10px 15px

@@ -1,20 +1,21 @@
 <template>
     <div>
         <Hero></Hero>
-        <Portfolio></Portfolio>
+        <PortfolioGrid></PortfolioGrid>
         <Footer></Footer>
     </div>
 </template>
 
 <script>
 import Hero from '../components/Hero.vue'
-import Portfolio from '../components/Portfolio.vue'
+// import Portfolio from '../components/Portfolio.vue'
+import PortfolioGrid from '../components/PortfolioGrid.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
     components: {
         Hero,
-        Portfolio,
+        PortfolioGrid,
         Footer
     },
     metaInfo: {
