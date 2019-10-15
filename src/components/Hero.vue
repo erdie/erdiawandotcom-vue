@@ -31,7 +31,7 @@
                         <ul>
                             <li class="active"><a href="">Home</a></li>
                             <li><a href="#portfolio">portfolio</a></li>
-                            <li><a href="journal-posts">Journal</a></li>
+                            <li><a href="journal">Journal</a></li>
                         </ul>
                     </div>
                     <div class="social">

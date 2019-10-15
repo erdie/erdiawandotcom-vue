@@ -24,7 +24,7 @@ export default new Router({
       component: Homepage
     },
     {
-      path: '/journal',
+      path: '/journal-posts',
       name: 'Journal',
       component: Journal
     },
@@ -34,7 +34,7 @@ export default new Router({
       component: JournalDetail
     },
     {
-      path: '/journal-posts',
+      path: '/journal',
       name: 'JournalPosts',
       component: JournalPosts
     },
