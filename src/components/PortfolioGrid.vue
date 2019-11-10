@@ -28,8 +28,24 @@
                     </p>
                 </div> -->
                 <div class="portfolio-card d:item__6 t:item__6 m:item__12">
+                    <img src="../assets/portfolio/devfest.png" class="lazyload" alt="Startup Pilihan Tempo">
+                    <h3>DevFest Jogjakarta 2019</h3>
+                    <p>Tech: HTML5, CSS3, SASS, NUXT, VUE JS<br>
+                        Frontend Dev: Anna Erdiawan<br>
+                        Demo: <a href="https://devfest.gdgjogjakarta.com" target="_blank" rel="noopener">devfest.gdgjogjakarta.com</a>
+                    </p>
+                </div>
+                <div class="portfolio-card d:item__6 t:item__6 m:item__12">
+                    <img src="../assets/portfolio/founder-asia.png" class="lazyload" alt="Startup Pilihan Tempo">
+                    <h3>Founder Asia</h3>
+                    <p>Tech: HTML5, CSS3, SASS, JQUERY<br>
+                        Frontend Dev: Anna Erdiawan<br>
+                        Demo: <a href="https://founderasia.com/" target="_blank" rel="noopener">founderasia.com</a>
+                    </p>
+                </div>
+                <div class="portfolio-card d:item__6 t:item__6 m:item__12">
                     <img src="../assets/portfolio/exp-up.png" class="lazyload" alt="EXP-UP! Academy Esport">
-                    <h3>EXP-UP! Academy Esport</h3>
+                    <h3>EXP Esport Academy</h3>
                     <p>Tech: HTML5, CSS3, SASS, JQUERY<br>
                         Frontend Dev: Anna Erdiawan<br>
                         Demo: <a href="https://exp-up.id" target="_blank" rel="noopener">exp-up.id</a> & <a href="https://exp-academy.id" target="_blank" rel="noopener">exp-academy.id</a>
