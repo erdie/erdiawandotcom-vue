@@ -32,7 +32,7 @@
                     <h3>DevFest 2019 Jakarta</h3>
                     <p>Tech Stack: HTML5, CSS3, SASS, NUXT, VUE JS<br>
                         Frontend Dev: Anna Erdiawan<br>
-                        Demo: <a href="https://devfest.gdgjogjakarta.com" target="_blank" rel="noopener">devfest.gdgjakarta.org</a><br>
+                        Demo: <a href="https://devfest.gdgjakarta.org" target="_blank" rel="noopener">devfest.gdgjakarta.org</a><br>
                         Source Code: <a href="https://github.com/gdgindonesia/devfest-19-landing" target="_blank">Github</a>
                     </p>
                 </div>

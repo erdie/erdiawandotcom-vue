@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import './styles/sass/style.sass'
+
 window.axios = require('axios')
 
 Vue.config.productionTip = false
