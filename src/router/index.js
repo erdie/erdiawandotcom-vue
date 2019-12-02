@@ -34,7 +34,7 @@ export default new Router({
     //   component: JournalDetail
     // },
     {
-      path: '/journal-detail/:id',
+      path: '/journal/:id',
       name: 'JournalDetail',
       component: JournalDetail
     },

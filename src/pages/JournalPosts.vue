@@ -8,7 +8,7 @@
                     <div class="d:item__4 t:item__6 m:item__12" v-for="post in posts" :key="post.id">
                         <!-- <a v-bind:href="post.link"> -->
                             <div class="blog-card">
-                                <router-link :to="'/journal-detail/'+post.id">
+                                <router-link :to="'/journal/'+post.id">
                                 <img v-bind:src="post.jetpack_featured_media_url" alt="">
                                 </router-link>
                                 <div class="blog-title">

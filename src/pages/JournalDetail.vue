@@ -9,7 +9,7 @@
                         <ul>
                             <li><a href="/">Home</a></li>
                             <li><a href="/journal">Journal</a></li>
-                            <li>{{content.title.rendered}}</li>
+                            <li><a v-binf:href="content.id">{{content.title.rendered}}</a></li>
                         </ul>
                     </div>
                     <div class="blog-title">
