@@ -6,9 +6,11 @@
             <div class="container">
                 <div class="blog item">
                     <div class="d:item__4 t:item__6 m:item__12" v-for="post in posts" :key="post.id">
-                        <a v-bind:href="post.link">
+                        <!-- <a v-bind:href="post.link"> -->
                             <div class="blog-card">
+                                <router-link :to="'/journal-detail/'+post.id">
                                 <img v-bind:src="post.jetpack_featured_media_url" alt="">
+                                </router-link>
                                 <div class="blog-title">
                                     <h2>{{post.title.rendered}}</h2>
                                 </div>
@@ -19,7 +21,7 @@
                                     <p>{{post.excerpt.rendered.substring(0,200)+".."}}</p>
                                 </div>
                             </div>
-                        </a>
+                        <!-- </a> -->
                     </div>
                 </div>
             </div>

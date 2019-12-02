@@ -28,8 +28,13 @@ export default new Router({
       name: 'Journal',
       component: Journal
     },
+    // {
+    //   path: '/journal-detail',
+    //   name: 'JournalDetail',
+    //   component: JournalDetail
+    // },
     {
-      path: '/journal-detail',
+      path: '/journal-detail/:id',
       name: 'JournalDetail',
       component: JournalDetail
     },
